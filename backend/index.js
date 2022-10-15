@@ -5,6 +5,8 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 const bookingRoute = require("./routes/booking");
 const contactRoute = require("./routes/contact");
+const BlogRoutes = require("./routes/BlogRoutes")
+const FaqRoutes = require("./routes/FaqRoutes");
 
 dotenv.config();
 app.use(express.json());
@@ -24,6 +26,8 @@ mongoose
 
 app.use("/booking", bookingRoute);
 app.use("/contact", contactRoute);
+app.use("/blogs", BlogRoutes);
+app.use("/faq", FaqRoutes);
 
 
 app.get("/", function (req, res) {
