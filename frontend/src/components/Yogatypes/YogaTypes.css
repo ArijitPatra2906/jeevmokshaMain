@@ -1,0 +1,250 @@
+.types_container {
+    left: -3px;
+    height: 100vh;
+    /* position: absolute; */
+    background-color: #e9e6e3;
+    background-image: url("../../assets/w.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.types_text {
+    display: flex;
+    margin-left: 40px;
+    padding-top: 60px;
+}
+
+.types_card {
+    background: rgba(217, 217, 217, 0.58);
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 600px;
+    margin-top: 60px;
+    margin-left: 160px;
+    opacity: 0.9;
+}
+
+.yoga {
+    display: flex;
+    width: 370px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.yoga::before {
+    content: "";
+    width: 4px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: -8px;
+    background: #F1D44B;
+}
+
+.types_text_1 {
+    color: rgba(0, 0, 0, 1);
+    text-align: left;
+}
+
+.types_text_1 span {
+    color: rgba(55, 91, 38, 1);
+}
+
+.types_text_2 {
+    color: rgba(6, 7, 7, 0.7);
+    text-align: left;
+}
+
+.types_join_btn {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 160px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 0.7rem 5rem;
+    background: #906A47;
+    border: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-family: "Open sans";
+}
+
+
+.card_btn {
+    padding-top: 20px;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    padding: 0.7rem 1.5rem;
+    /* background: #ffff; */
+    background: #906A47;
+    border: none;
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    color: #fff;
+    /* color: rgb(19, 18, 18); */
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.card_btn2 {
+    margin-top: 26px;
+}
+
+.card_btn3 {
+    margin-top: 44px;
+}
+
+.card_btn4 {
+    margin-top: 43px;
+}
+
+.card_btn:hover {
+    border: 1px solid #000000;
+    background-color: #e9e6e3;
+    color: rgb(0, 0, 0)
+}
+
+.types {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    background-color: #e9e6e3;
+    margin-top: 30px;
+    /* height: 2000px; */
+}
+
+.card1,
+.card2 {
+    display: flex;
+    gap: 30px;
+}
+
+.yoga_type_section {
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    background-color: #e9e6e3;
+}
+
+@media screen and (max-width : 1024px) {
+    .types_card {
+        height: 250px;
+        width: 350px;
+        margin-top: 60px;
+        margin-left: 20px;
+        opacity: 0.9;
+    }
+
+    .yoga {
+        display: flex;
+        width: 270px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .yoga::before {
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    .types_join_btn {
+        margin-left: 20px;
+        padding: 1.3rem 5rem;
+        font-size: 16px;
+        font-weight: 600;
+
+    }
+
+    .types {
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 0px;
+    }
+
+    .card1,
+    .card2 {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 80px;
+    }
+
+    .yoga_type_section {
+        height: 1800px;
+    }
+
+    .read-more {
+        position: absolute;
+        top: 50%;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+        width: 300px;
+
+        border: 2px solid #000;
+        box-shadow: 24;
+
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .types_card {
+        height: 250px;
+        width: 350px;
+        margin-top: 60px;
+        margin-left: 20px;
+        opacity: 0.9;
+    }
+
+    .yoga {
+        display: flex;
+        width: 270px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .yoga::before {
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    .types_join_btn {
+        margin-left: 20px;
+        padding: 1.3rem 5rem;
+        font-size: 16px;
+        font-weight: 600;
+
+    }
+
+    .types {
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 0px;
+    }
+
+    .card1,
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .yoga_type_section {
+        height: 3400px;
+    }
+}

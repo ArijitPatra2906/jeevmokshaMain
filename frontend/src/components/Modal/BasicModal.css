@@ -1,0 +1,151 @@
+.form-group select {
+    width: 400px;
+    height: 34px;
+    border: none;
+    margin-bottom: 8px;
+    outline: none;
+    border-radius: 4px;
+    padding-left: 10px;
+    background-color: white;
+    font-size: 16px;
+
+}
+
+.form-group {
+    margin-top: 30px;
+}
+
+.modal_icon {
+    color: white;
+    cursor: pointer;
+    margin-left: 400px;
+    margin-top: -40px;
+}
+
+.modal_main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 600px;
+    background-color: #906a47;
+    border: none;
+    /* box-shadow: 24px; */
+    /* padding: 20px 20px; */
+    border-radius: 6px;
+}
+
+.inputFull {
+    width: 400px;
+    height: 34px;
+    margin-bottom: 8px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.inputHalf {
+    width: 197px;
+    height: 34px;
+    margin-bottom: 8px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+
+textarea {
+    resize: none;
+    height: 70px;
+    width: 400px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+
+}
+
+.next_bttn {
+    width: 392px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    font-weight: 700;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    /* text-align: center; */
+}
+
+
+@media screen and (max-width : 700px) {
+    .modal_main {
+        width: 400px;
+        height: 640px;
+        margin-left: 5px
+    }
+
+    form {
+        margin-left: 10px;
+    }
+
+    .modal_icon {
+        color: white;
+        cursor: pointer;
+        margin-left: 300px;
+        margin-top: -20px;
+    }
+
+    .form-group select {
+        width: 292px;
+        height: 34px;
+        border: none;
+        margin-bottom: 8px;
+        /* border-radius: 8px; */
+    }
+
+    .inputFull {
+        width: 292px;
+        height: 28px;
+        margin-bottom: 8px;
+    }
+
+    .inputHalf {
+        width: 292px;
+        height: 28px;
+        margin-bottom: 8px;
+    }
+
+    textarea {
+        resize: none;
+        height: 60px;
+        width: 292px;
+    }
+
+    .next_bttn {
+        width: 292px;
+        height: 40px;
+        /* background-color: #dbd4c9ce; */
+        /* color: #1b1919; */
+        font-size: 16px;
+        border: none;
+        /* border: 2px solid black; */
+        font-weight: 700;
+    }
+
+    .form-check {
+        margin-left: -10px;
+        width: 310px;
+
+    }
+}

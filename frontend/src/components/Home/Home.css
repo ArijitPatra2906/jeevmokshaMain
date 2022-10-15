@@ -1,0 +1,934 @@
+.landing_section {
+    /* left: -3px; */
+    height: 800px;
+    width: 100%;
+    /* position: absolute; */
+    background-color: #e9e6e3;
+    background-image: url("../../assets/jeevmoksha-banner-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    animation: animatedBackground 20s forwards infinite alternate;
+    /* margin-top: 200px; */
+}
+
+.home_container {
+    display: none;
+}
+
+@keyframes animatedBackground {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: translateY(-2);
+    }
+}
+
+.landing_text {
+    display: flex;
+    margin-left: 80px;
+    padding-top: 120px;
+}
+
+.text1 {
+    color: #112734;
+}
+
+.text1 span {
+    color: #000000;
+}
+
+.text2 {
+    color: #112734;
+    text-align: left;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stream {
+    display: flex;
+    width: 310px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.stream::before {
+    content: "";
+    width: 2.3px;
+    height: 40px;
+    margin-top: 16px;
+    margin-right: 10px;
+    margin-left: -8px;
+    background: #F1D44B;
+}
+
+.start {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 1rem 3rem;
+    background: #906A47;
+    border: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.philosophy_leftimage {
+    height: 370px;
+    width: 200px;
+    margin-top: -30px;
+    /* margin-left: 54px; */
+}
+
+.philosophy_rightimage {
+    height: 370px;
+    width: 200px;
+    margin-top: -30px;
+    /* margin-left: 970px; */
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* flex-direction: column; */
+    gap: 20px;
+    background: #c4b3a4;
+    /* width: 1425px; */
+    height: 360px;
+    /* padding-top: 50px; */
+    /* margin-left: -100px; */
+}
+
+.screen2 {
+    left: -3px;
+    right: -3px;
+    height: 100vh;
+    width: 100vw;
+    /* position: absolute; */
+    /* background-color: #e9e6e3; */
+    background-image: url("../../assets/newimages/yoga\ fun\ at\ rishikesh\ 1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.screen2_heading {
+    display: flex;
+    /* margin-top: 400px; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    font-size: 45px;
+}
+
+.back {
+    position: relative;
+    background-color: rgb(65, 65, 65);
+    height: 100vh;
+    padding-top: 40px;
+    margin-top: -24px;
+    opacity: 0.6;
+}
+
+.screen2_subheading {
+    display: flex;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.screen2_btn {
+    margin-top: 160px;
+    padding: 0.8rem 3rem;
+    background: #906A47;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    /* box-shadow: 3px 3px 3px 3px rgb(0, 0, 0); */
+}
+
+.scr3 {
+    background-color: #C9CFC7;
+    height: 1160px;
+}
+
+.cardImage {
+    transition: 2s ease-in;
+}
+
+.card_main {
+    transition: 1s ease-in;
+}
+
+.hover {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+
+/* .cardContent:hover .hover {
+    background-color: #906A47;
+    opacity: 1;
+    transition: 0.5s all ease;
+} */
+
+.card_main:hover {
+    background-color: #906A47;
+    transform: translateY(5px);
+}
+
+.card_main:hover .hover {
+    opacity: 1;
+    transform: scale(1.01);
+}
+
+.cardImage:hover {
+    transform: scale(1.2);
+}
+
+.screen4 {
+    background-color: #C9CFC7;
+}
+
+.scr4_images {
+    display: flex;
+    justify-content: center;
+    height: 280px;
+}
+
+.scr4_images img {
+    width: 449px;
+    height: 300px;
+}
+
+.scr4_image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sec3_card {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.sec3_card2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+.texxxt::before {
+    content: "";
+    width: 100px;
+    height: 2.3px;
+    position: absolute;
+    margin-top: 22px;
+    /* margin-right: 10px; */
+    margin-left: -128px;
+    background: #000000;
+}
+
+.texxxt {
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-family: "Fahkwang";
+    font-weight: 700;
+}
+
+.texxxt::after {
+    content: "";
+    width: 100px;
+    height: 2.3px;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 30px;
+    background: #000000;
+}
+
+.screen5 {
+    height: 600px;
+    /* margin-top: -60px; */
+    background-color: #C9CFC7;
+    background-image: url("../../assets/newimages/yoga\ alignment.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -20px;
+}
+
+.screen5_heading {
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+.screen5_subheading {
+    padding-top: 60px;
+    color: #ffffff;
+}
+
+.scr5_btn {
+    margin-top: 60px;
+    padding: 1rem 3rem;
+    background: #906A47;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.scr5_btn:hover {
+    background: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: black;
+}
+
+.screen6 {
+    height: 800px;
+    background-color: #C9CFC7;
+    background-image: url("../../assets/sctn\ 7.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.touch {
+    color: white;
+    padding-top: 20px;
+    padding-left: 480px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.footer {
+    height: 90vh;
+    /* margin-top: -10px; */
+    background: rgba(145, 92, 13, 0.43);
+}
+
+.get .text_input_field {
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    outline: none;
+    width: 400px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 14px;
+    overflow-y: hidden;
+    color: #000000;
+    font-weight: 500;
+}
+
+.get .number_input_field,
+.get .email_input_field {
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    outline: none;
+    width: 400px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    padding-top: 4px;
+    overflow-y: hidden;
+    color: #000000;
+    font-weight: 500;
+}
+
+textarea {
+    resize: none;
+}
+
+.get .text_textarea_field {
+    border-radius: 10px;
+    height: 120px;
+    border: none;
+    outline: none;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 18px;
+    padding-top: 20px;
+    overflow-y: hidden;
+    color: #000000;
+    font-weight: 500;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+.submit {
+    /* display: flex; */
+    width: 200px;
+    padding: 0.7rem 4rem;
+    background-color: #EF7B10E0;
+    border-radius: 40px;
+    border: none;
+    /* align-items: flex-start; */
+    /* margin-left: 240px; */
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+}
+
+.submit:hover {
+    background-color: #fff;
+    border: 2px solid #EF7B10E0;
+    color: #EF7B10E0;
+}
+
+.book {
+    padding: 0.8rem 3rem;
+    background: #906A47;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.book:hover {
+    background: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: black;
+}
+
+.read-or-hide {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 1rem 2rem;
+    background: #906A47;
+    border: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .landing_section {
+        background-color: #e9e6e3;
+        background-image: url("../../assets/jeevmoksha-banner-1\ mobile.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 600px;
+    }
+
+    .landing_text {
+        margin-left: 40px;
+        padding-top: 20px;
+    }
+
+    .stream {
+        margin-left: 50px;
+    }
+
+    .start {
+        margin-left: 50px;
+        padding: 1rem 2rem;
+    }
+
+    .touch {
+        padding-left: 0px;
+    }
+
+    .get .text_input_field,
+    .get .text_textarea_field,
+    .get .number_input_field,
+    .get .email_input_field {
+        width: 400px;
+    }
+
+    /* .submit {
+        margin-left: 200px;
+    } */
+    .screen2 {
+        height: 75vh;
+    }
+
+    .screen2_heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-left: 20px;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .screen2_btn {
+        margin-top: 20px !important;
+    }
+
+    .back {
+        background-color: rgb(65, 65, 65);
+        height: 70vh;
+        padding-top: 40px;
+        opacity: 0.5;
+    }
+
+    .screen2_subheading {
+        display: flex;
+        padding-top: 30px;
+        width: 730px;
+    }
+
+    .screen5_heading {
+        padding-top: 50px;
+        color: #ffffff;
+    }
+
+    .screen5_subheading {
+        padding-top: 20px;
+        color: #ffffff;
+    }
+
+    .scr5_btn {
+        margin-top: 40px;
+        padding: 0.8rem 2rem;
+    }
+
+    .scr3 {
+        background-color: #C9CFC7;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 1200px;
+    }
+
+    .card_main3 {
+        display: none;
+    }
+
+    .cardContent {
+        opacity: 1;
+    }
+
+    .scr4_images {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 1280px;
+    }
+
+    .scr4_images img {
+        width: 600px;
+        height: 400px;
+    }
+
+    .screen4 {
+        height: 1303px;
+        background-color: #C9CFC7;
+    }
+
+    .screen5 {
+        height: 613px;
+    }
+
+    .section {
+        height: 550px;
+    }
+
+    .philosophy_text {
+        margin-top: -40px;
+        /* text-align: justify; */
+    }
+
+    .texxxt {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .texxxt::before {
+        content: "";
+        width: 90px;
+        height: 2.3px;
+        position: absolute;
+        margin-top: 10px;
+        /* margin-right: 10px; */
+        margin-left: -100px;
+        background: #000000;
+    }
+
+    .texxxt::after {
+        content: "";
+        width: 90px;
+        height: 2.3px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 10px;
+        background: #000000;
+    }
+
+    ::placeholder {
+        font-size: 14px;
+    }
+
+    .text1 {
+        font-size: 35px !important;
+        width: 80%;
+    }
+
+    .text2 {
+        font-size: 15px !important;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .landing_section {
+        background-color: #e9e6e3;
+        background-image: url("../../assets/jeevmoksha-banner-1\ mobile.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .landing_text {
+        margin-left: 20px;
+        padding-top: 130px;
+    }
+
+    .text1 {
+        font-size: 25px !important;
+        width: 60%;
+    }
+
+    .text2 {
+        font-size: 15px !important;
+        width: 50%;
+    }
+
+    .stream {
+        /* margin-left: 30px;
+        width: 340px !important; */
+        display: none;
+    }
+
+    .start {
+        margin-left: 30px !important;
+        padding: 1rem 2rem;
+    }
+
+    .philosophy_leftimage {
+        display: none
+    }
+
+    .philosophy_rightimage {
+        display: none
+    }
+
+    .touch {
+        padding-left: 0px;
+    }
+
+    .get .text_input_field,
+    .get .text_textarea_field,
+    .get .number_input_field,
+    .get .email_input_field {
+        width: 300px;
+    }
+
+    .screen2 {
+        height: 1015px;
+    }
+
+    .screen2_heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        padding-left: 20px;
+        color: #ffffff;
+        font-weight: 700;
+    }
+
+    .back {
+        background-color: rgb(65, 65, 65);
+        height: 100vh;
+        padding-top: 40px;
+        opacity: 0.5;
+    }
+
+    .screen2_subheading {
+        display: flex;
+        padding-top: 30px;
+        padding-left: 20px;
+        width: 375px !important;
+    }
+
+    .screen5_heading {
+        padding-top: 50px;
+        color: #ffffff;
+    }
+
+    .screen5_subheading {
+        padding-top: 20px;
+        color: #ffffff;
+    }
+
+    .scr5_btn {
+        margin-top: 40px;
+        padding: 0.8rem 2rem;
+    }
+
+    .scr3 {
+        background-color: #C9CFC7;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 2650px;
+    }
+
+    .card_main3 {
+        display: block;
+    }
+
+    .hover {
+        opacity: 1;
+    }
+
+    .sec3_card {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: space-around;
+        padding-top: 60px;
+        margin-left: 50px;
+    }
+
+    .sec3_card2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 30px;
+        gap: 30px;
+        margin-left: 50px;
+    }
+
+    .cardContent {
+        opacity: 1;
+    }
+
+    .scr4_images {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 880px;
+    }
+
+    .scr4_images img {
+        width: 370px;
+        height: 300px;
+    }
+
+    .screen4 {
+        height: 903px;
+        background-color: #C9CFC7;
+    }
+
+    .screen5 {
+        height: 613px;
+    }
+
+    .section {
+        height: 550px;
+    }
+
+    .philosophy_text {
+        margin-top: -40px;
+        /* text-align: justify; */
+    }
+
+    .texxxt {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .texxxt::before {
+        content: "";
+        width: 90px;
+        height: 2.3px;
+        position: absolute;
+        margin-top: 10px;
+        /* margin-right: 10px; */
+        margin-left: -100px;
+        background: #000000;
+    }
+
+    .texxxt::after {
+        content: "";
+        width: 90px;
+        height: 2.3px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 10px;
+        background: #000000;
+    }
+
+    ::placeholder {
+        font-size: 14px;
+    }
+
+    .landing_container {
+        display: none;
+    }
+
+    .home_container {
+        display: block;
+        left: -3px;
+        height: 100vh;
+        /* position: absolute; */
+        background-color: #e9e6e3;
+        background-image: url("../../assets/jeevmoksha-banner-1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .home_section {
+        /* border: 1px solid black; */
+        height: 250px;
+        width: 600px;
+        margin-top: 60px;
+        margin-left: 160px;
+        padding: 2rem 2rem;
+        /* opacity: 0.9; */
+    }
+
+    .home {
+        display: flex;
+        width: 370px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .home::before {
+        content: "";
+        width: 4px;
+        height: 70px;
+        margin-right: 10px;
+        margin-left: -8px;
+        background: #F1D44B;
+    }
+
+    .home_text_1 {
+        color: rgba(0, 0, 0, 1);
+        text-align: left;
+    }
+
+    .home_text_1 span {
+        color: #906A47;
+    }
+
+    .home_text_2 {
+        color: #112734;
+        text-align: left;
+    }
+
+    .home_container {
+        display: block;
+        background-color: #e9e6e3;
+        background-image: url("../../assets/jeevmoksha-banner-1\ mobile.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .home_section {
+        background: rgba(217, 217, 217, 0.58);
+        margin-top: 80px;
+        margin-left: 10px;
+        width: 370px;
+        height: 360px;
+    }
+
+    .home {
+        display: flex;
+        width: 310px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .home::before {
+        content: "";
+        width: 4px;
+        height: 90px;
+        margin-right: 10px;
+        margin-left: -8px;
+        background: #F1D44B;
+    }
+
+    .start_btn {
+        margin-left: 10px;
+    }
+
+    .modal_read {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 380px;
+        height: 660px;
+        background-color: #906a47;
+        border: none;
+        /* box-shadow: 24px; */
+        /* padding: 20px 20px; */
+        border-radius: 6px;
+        overflow-y: auto;
+    }
+
+}

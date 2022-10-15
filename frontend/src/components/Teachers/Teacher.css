@@ -1,0 +1,447 @@
+.teacher_container {
+    left: -3px;
+    height: 100vh;
+    /* position: relative; */
+    background-color: #e9e6e3;
+    background-image: url("../../assets/Rectangle\ 377.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.8; */
+}
+
+.teacher_text {
+    display: flex;
+}
+
+.teacher_card {
+    background: rgba(217, 217, 217, 0.58);
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 160px;
+    display: flex;
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    opacity: 0.9;
+}
+
+.teacher_text_1 {
+    color: #375B26;
+    text-align: left;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.teacher_type_section {
+    background-color: #E2E2E2;
+    height: 80vh;
+}
+
+.carousel_course_sec {
+    padding-top: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.carousel_course {
+    width: 350px;
+}
+
+.container1 {
+    height: 280px;
+    width: 350px;
+    background-image: url("../../assets//Back\ image1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container2 {
+    height: 280px;
+    width: 350px;
+    background-image: url("../../assets/Back\ image2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container3 {
+    height: 280px;
+    width: 350px;
+    background-image: url("../../assets/Back\ image3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.scr2_image img {
+    width: 350px;
+}
+
+.scr2_image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.caro_content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-left img {
+    width: 40px;
+    height: 60px;
+}
+
+.bottom-right svg {
+    font-size: 46px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 12px;
+    left: 30px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.bottom_left_text {
+    margin-top: -40px;
+}
+
+.top-left {
+    position: absolute;
+    top: 12px;
+    left: 26px;
+    display: flex;
+    gap: 5px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 28px;
+    right: 1px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.teacher_screen3 {
+    background-color: #E2E2E2;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.testimonial_container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.testimonial_container img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.teacher_screen4 {
+    height: 80vh;
+    background-image: url("../../assets/Rectangle\ 411.png");
+}
+
+.screen4_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 40px;
+}
+
+.screen4_content img {
+    width: 500px;
+    height: 350px;
+}
+
+.teacher_screen5 {
+    background-color: #E2E2E2;
+    height: 100vh;
+}
+
+.inspiration_container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.mobile {
+    display: none;
+}
+
+.inspiration_container img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+    .teacher_card {
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    .teacher_type_section {
+        background-color: #E2E2E2;
+        height: 500px;
+    }
+
+    .bottom-left img {
+        width: 30px;
+        height: 50px;
+    }
+
+    .bottom-right svg {
+        font-size: 40px;
+        margin-right: 5px;
+    }
+
+    .bottom-right {
+        position: absolute;
+        bottom: 28px;
+        right: 66px;
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .bottom-left {
+        position: absolute;
+        bottom: 12px;
+        left: 50px;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .bottom_left_text {
+        margin-top: -20px;
+        margin-left: 5px;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 12px;
+        left: 50px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .content_center {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .screen4_content {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 10px;
+    }
+
+    .screen4_content img {
+        width: 350px;
+        height: 300px;
+    }
+
+    .inspiration_container {
+        padding-top: 50px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .carousel_testimonial_sec,
+    .carousel_course_sec,
+    .scr3_image {
+        display: none;
+    }
+
+    .dekstop {
+        display: none;
+    }
+
+    .type_sec_text {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 40px;
+    }
+
+    .teacher_screen3 {
+        height: 600px;
+    }
+
+    .mobile {
+        padding-top: 50px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .teacher_card {
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    .teacher_type_section {
+        background-color: #E2E2E2;
+        height: 500px;
+    }
+
+    .bottom-left img {
+        width: 30px;
+        height: 50px;
+    }
+
+    .bottom-right svg {
+        font-size: 40px;
+        margin-right: 5px;
+    }
+
+    .bottom-right {
+        position: absolute;
+        bottom: 18px;
+        right: 66px;
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .bottom-left {
+        position: absolute;
+        bottom: 5px;
+        left: 50px;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .bottom_left_text {
+        /* margin-top: -40px; */
+        margin-left: 5px;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 12px;
+        left: 50px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .content_center {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .teacher_screen4 {
+        height: 740px;
+    }
+
+    .screen4_content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .screen4_content img {
+        width: 350px;
+        height: 300px;
+    }
+
+    .teacher_screen5 {
+        background-color: #E2E2E2;
+        height: 1800px;
+    }
+
+    .inspiration_container {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .carousel_testimonial_sec,
+    .carousel_course_sec,
+    .scr3_image {
+        display: none;
+    }
+
+    .dekstop {
+        display: none;
+    }
+
+    .type_sec_text {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 40px;
+    }
+
+    .teacher_screen3 {
+        height: fit-content;
+
+    }
+
+    .mobile {
+        padding-top: 50px;
+        display: block;
+    }
+
+    .teacher_container {
+        left: -3px;
+        height: 86vh;
+    }
+
+}

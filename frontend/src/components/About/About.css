@@ -1,0 +1,260 @@
+.about_section {
+    height: 100vh;
+    background-image: url("../../assets/newimages/ashram1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.about {
+    display: flex;
+    width: 310px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.about::before {
+    content: "";
+    width: 2.3px;
+    height: 40px;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: -8px;
+    background: #F1D44B;
+}
+
+.about_text {
+    display: flex;
+    margin-left: 80px;
+    padding-top: 100px;
+}
+
+.about_text1 span {
+    color: #906A47;
+}
+
+.about_text1 {
+    color: #112734;
+}
+
+.about_screen2 {
+    background-color: #e9e6e3;
+}
+
+.about_text2 {
+    text-align: left;
+    font-weight: 600;
+    color: #112734;
+}
+
+
+.about_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about_screen2_heading {
+    width: 800px;
+    display: flex;
+    /* justify-content: space-around; */
+    /* text-align: right; */
+    /* color: #3b4894; */
+    color: #375B26;
+    font-weight: 700;
+    font-family: "Crimson Text";
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.about_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 60px; */
+}
+
+.about_cardImage {
+    width: 70px;
+    height: 100px;
+    transition: 2s ease-in;
+
+}
+
+.sec3_about_card,
+.sec3_about_card2,
+.sec3_about_card3,
+.sec3_about_card4 {
+    display: flex;
+    gap: 160px;
+    align-items: center;
+}
+
+.about_cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    transition: 1s ease-in;
+
+}
+
+.about_card_main {
+    cursor: pointer;
+    margin-bottom: 50px;
+    width: 400px;
+    min-height: 350px;
+    transition: 1s ease-in;
+
+}
+
+/* .about_card_main:hover .about_cardImage {
+    transform: scale(1.2);
+} */
+
+.about_card_main:hover .about_cardContent {
+    /* background-color: #996A3F45; */
+    transform: scale(1.05);
+}
+
+.about_card_main:hover {
+    /* background-color: #996A3F45; */
+    transform: scale(1.05);
+}
+
+.about_card_main:hover .about_card_paragraph {
+    color: #00236699;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .about_text {
+        margin-left: 20px;
+        padding-top: 120px;
+    }
+
+    .about {
+        margin-left: 30px;
+    }
+
+    .start {
+        margin-left: 40px;
+    }
+
+    .about_screen2_heading {
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+        font-size: 26px;
+    }
+
+    .about_cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 60px; */
+    }
+
+    /* .about_cardImage {
+        width: 370px;
+        height: 350px;
+    } */
+
+    .sec3_about_card,
+    .sec3_about_card2,
+    .sec3_about_card3,
+    .sec3_about_card4 {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 50px;
+        align-items: center;
+    }
+
+    .about_cardContent {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .about_card_main {
+        width: 360px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .about_text {
+        margin-left: 20px;
+        padding-top: 80px;
+    }
+
+    /* .about_text2 {
+        color: wite;
+    } */
+
+    .about {
+        margin-left: 30px;
+    }
+
+    .start {
+        margin-left: 40px;
+    }
+
+    .about_screen2_heading {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .about_cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 60px; */
+    }
+
+    /* .about_cardImage {
+        width: 370px;
+        height: 350px;
+    } */
+
+    .sec3_about_card,
+    .sec3_about_card2,
+    .sec3_about_card3,
+    .sec3_about_card4 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .about_cardContent {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .about_card_main {
+        width: 360px;
+        margin-bottom: 30px;
+    }
+
+}

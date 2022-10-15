@@ -1,0 +1,262 @@
+.faq_container {
+    left: -3px;
+    height: 100vh;
+    background-color: #e9e6e3;
+    background-image: url("../../assets/newimages/yoga\ alignment\ 4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.faq_main {
+    padding-left: 100px;
+}
+
+.faq_text {
+    display: flex;
+    margin-left: 40px;
+    padding-top: 60px;
+}
+
+.faq_text_1 {
+    color: rgba(0, 0, 0, 1);
+    text-align: left;
+}
+
+.faq_text_1 span {
+    color: rgba(55, 91, 38, 1);
+}
+
+.faq_card {
+    background: rgba(217, 217, 217, 0.58);
+    height: 300px;
+    width: 800px;
+    margin-top: 70px;
+    /* margin-left: 100px; */
+    opacity: 0.9;
+}
+
+
+.faq_text_2 {
+    color: rgba(6, 7, 7, 0.7);
+    text-align: left;
+}
+
+.faq::before {
+    content: "";
+    width: 4px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: -8px;
+    background: #F1D44B;
+}
+
+.faq_btn {
+    display: flex;
+    margin-top: 40px;
+    /* margin-left: 100px; */
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 1rem 7rem;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: "Open sans";
+    background-color: #906A47;
+    border: none;
+}
+
+.faq_sec2_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.faq_btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.faq_main_section {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.faq_sec {
+    width: 50vw;
+}
+
+.faq_sec h4 {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.faq_sec h5 {
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.faq_sec svg {
+    font-size: 22px;
+}
+
+.faq_right {
+    width: 28%;
+    background-color: #fff;
+    height: 60vh;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.faq_right svg {
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+.faq_right h4 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.faq_right p {
+    margin-top: 20px;
+    width: 320px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.faq_call_btn {
+    margin-top: 50px;
+    background-color: #906A47;
+    border: none;
+    width: 85%;
+    padding: 1.3rem 0;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Open sans";
+
+}
+
+.faq_call_btn a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width : 1024px) {
+    .faq_card {
+        width: 350px;
+    }
+
+    .faq_main {
+        padding-left: 20px;
+    }
+
+    .faq_main_section {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .faq_right {
+        width: 40%;
+        background-color: #fff;
+        height: 60vh;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .faq_right svg {
+        font-size: 36px;
+        margin-top: 50px;
+    }
+
+    .faq_right h4 {
+        margin-top: 30px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .faq_right p {
+        margin-top: 20px;
+        width: 320px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .faq_sec svg {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .faq_card {
+        width: 350px;
+    }
+
+    .faq_main {
+        padding-left: 20px;
+    }
+
+    .faq_main_section {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .faq_right {
+        width: 89%;
+        background-color: #fff;
+        height: 60vh;
+        margin-bottom: 30px;
+
+    }
+
+    .faq_sec {
+        width: 90vw;
+    }
+
+    .faq_sec h4 {
+        font-size: 15px;
+    }
+
+    .faq_sec h5 {
+        font-size: 12px;
+
+    }
+
+    .faq_sec svg {
+        font-size: 24px;
+    }
+}
